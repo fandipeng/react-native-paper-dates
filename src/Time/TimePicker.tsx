@@ -70,7 +70,7 @@ function TimePicker({
       setDisplayMode('AM')
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [hours])
 
   const onInnerChange = React.useCallback<onChangeFunc>(
     (params) => {
